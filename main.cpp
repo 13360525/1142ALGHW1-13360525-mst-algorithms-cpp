@@ -22,7 +22,8 @@ public:
         rankv.resize(n + 1, 0);//rankv[1]=0...rank[n+1]=0
         for (int i = 1; i <= n; i++) {
             parent[i] = i;//初始化parent[i]=i
-        }
+        } 
+        
     }
 
     int find(int x) {
